@@ -4,7 +4,7 @@ from telebot.types import *
 from time import sleep, time
 import sqlite3, requests, os
 tkn = Mody.TG_BOT_TOKEN
-my_id = int("6581896306")
+my_id = int("956893993")
 bot = TeleBot(tkn)
 db = sqlite3.connect("delemessage.db", check_same_thread=False)
 cr = db.cursor()
